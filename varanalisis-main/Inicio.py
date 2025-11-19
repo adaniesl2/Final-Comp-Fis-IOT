@@ -26,7 +26,7 @@ st.markdown("""
 # Title and description
 st.title('📊 Análisis de datos de Sensor de Dimmer de Luz 💡')
 st.header("Esta aplicación permite ver el historial y analizar datos de sensores
-    recolectados en todas las :yellow[luces] que has conectado a tu cuenta.", divider="yellow")
+    recolectados en todas las :yellow[luces] que has conectado a tu cuenta."", divider="yellow")
 st.markdown("""
     Esta aplicación permite ver el historial y analizar datos de sensores
     recolectados en todas las luces que has conectado a tu cuenta.
