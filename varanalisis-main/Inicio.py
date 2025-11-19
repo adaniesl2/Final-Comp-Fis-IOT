@@ -1,4 +1,4 @@
-import pandas as pd
+elimport pandas as pd
 import streamlit as st
 from PIL import Image
 import numpy as np
@@ -26,8 +26,8 @@ st.markdown("""
 # Title and description
 st.title('📊 Análisis de datos de Sensor de Dimmer de Luz 💡')
 st.markdown("""
-    Esta aplicación permite analizar datos de sensores
-    recolectados en todos los dimmers que has conectado a tu cuenta.
+    Esta aplicación permite ver el historial y analizar datos de sensores
+    recolectados en todas las luces que has conectado a tu cuenta.
 """)
 
 # Create map data for EAFIT
@@ -190,6 +190,6 @@ else:
 # Footer
 st.markdown("""
     ---
-    Desarrollado para el análisis de datos de sensores urbanos.
+    Desarrollado para el análisis de datos de sensores caseros.
     Ubicación: Universidad EAFIT, Medellín, Colombia
 """)
