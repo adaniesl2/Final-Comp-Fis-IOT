@@ -6,8 +6,8 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="Análisis de Sensores - Mi Ciudad",
-    page_icon="📊",
+    page_title="Aplicación de Sensor - Dimmer Cuarto",
+    page_icon="💡",
     layout="wide"
 )
 
@@ -24,10 +24,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.title('📊 Análisis de datos de Sensores en Mi Ciudad')
+st.title('📊 Análisis de datos de Sensor de Dimmer de Luz 💡')
 st.markdown("""
     Esta aplicación permite analizar datos de sensores
-    recolectados en diferentes puntos de la ciudad.
+    recolectados en todos los dimmers que has conectado a tu cuenta.
 """)
 
 # Create map data for EAFIT
@@ -38,7 +38,7 @@ eafit_location = pd.DataFrame({
 })
 
 # Display map
-st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
+st.subheader("📍 Ubicación del Dimmer - Universidad EAFIT")
 st.map(eafit_location, zoom=15)
 
 # File uploader
