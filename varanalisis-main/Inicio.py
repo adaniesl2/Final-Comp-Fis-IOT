@@ -25,6 +25,8 @@ st.markdown("""
 
 # Title and description
 st.title('📊 Análisis de datos de Sensor de Dimmer de Luz 💡')
+st.header("Esta aplicación permite ver el historial y analizar datos de sensores
+    recolectados en todas las :yellow[luces] que has conectado a tu cuenta.", divider="yellow")
 st.markdown("""
     Esta aplicación permite ver el historial y analizar datos de sensores
     recolectados en todas las luces que has conectado a tu cuenta.
@@ -38,7 +40,7 @@ eafit_location = pd.DataFrame({
 })
 
 # Display map
-st.subheader("📍 Ubicación del Dimmer - Universidad EAFIT")
+st.subheader("📍 Ubicación de tu Dimmer - Universidad EAFIT")
 st.map(eafit_location, zoom=15)
 
 # File uploader
