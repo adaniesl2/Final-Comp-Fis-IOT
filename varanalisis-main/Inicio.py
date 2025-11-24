@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="💡",
     layout="wide"
     [theme]
-    base = dark
+    base = "dark"
 )
 
 # Custom CSS
