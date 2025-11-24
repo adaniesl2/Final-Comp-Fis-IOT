@@ -11,6 +11,17 @@ st.set_page_config(
     layout="wide"
 )
 
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://www.slashgear.com/img/gallery/why-america-banned-incandescent-light-bulbs/intro-1690819198.jpg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 # Custom CSS
 st.markdown("""
     <style>
