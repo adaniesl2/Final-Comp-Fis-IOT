@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-    [theme.dark]
+[theme.dark]
 # Custom CSS
 st.markdown("""
     <style>
