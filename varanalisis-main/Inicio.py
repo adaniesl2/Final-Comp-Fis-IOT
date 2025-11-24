@@ -11,6 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
+    [theme.dark]
 # Custom CSS
 st.markdown("""
     <style>
@@ -20,7 +21,6 @@ st.markdown("""
     .stAlert {
         margin-top: 1rem;
     }
-    [theme.dark]
     </style>
 """, unsafe_allow_html=True)
 
