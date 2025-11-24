@@ -9,8 +9,6 @@ st.set_page_config(
     page_title="Aplicación de Sensor - Dimmer Cuarto",
     page_icon="💡",
     layout="wide"
-    [theme]
-    base = "dark"
 )
 
 # Custom CSS
